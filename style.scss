@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header{
+    height: 117px;
+    &-about{
+        background-color: #B36050;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            color: #F1D3B9;
+            font-weight: 400;
+            font-size: 17px;
+        }
+    }
+    &-block{
+        height: 71px;
+        display: flex;
+
+    }
+}
+
+.header-block>div{
+    flex: 1;
+}
